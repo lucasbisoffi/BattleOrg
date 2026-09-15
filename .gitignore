@@ -1,0 +1,12 @@
+# Arquivos de sistema operacional (Mac / Windows)
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente e senhas
+.env
+.env.*
+
+# Dependências e builds
+node_modules/
+dist/
+build/

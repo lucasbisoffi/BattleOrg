@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* 1. Alvo e Resolução do Node moderno */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+
+    /* 2. Estrutura de Pastas */
+    "rootDir": "./",
+    "outDir": "./dist",
+
+    /* 3. Tipagens do Node.js */
+    "types": ["node"],
+
+    /* 4. Segurança Estrita (Clean Code / SOLID) */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* 5. Interoperabilidade */
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", "prisma/**/*"]
+}
